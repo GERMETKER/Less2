@@ -1,4 +1,6 @@
-﻿namespace Less2
+﻿using Engine.Renderer;
+
+namespace Less2
 {
     internal class Program
     {
@@ -18,8 +20,15 @@
 
             cat.Color = "зелёный";
             Console.WriteLine(cat.Color);
+
+            Engine.Physics.Vector3D vector3D = new Engine.Physics.Vector3D();
+            Vector3D vector33D = new Vector3D();
+
         }
     }
     //[модификатор доступа] struct [название] {} структура
 
 }
+
+
+

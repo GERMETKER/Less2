@@ -26,3 +26,16 @@ namespace Less2
         }
     }
 }
+
+namespace Engine
+{
+    namespace Renderer
+    {
+        class Vector3D { }
+    }
+    namespace Physics
+    {
+        class Vector3D { }
+    }
+
+}
