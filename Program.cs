@@ -24,6 +24,14 @@ namespace Less2
             Engine.Physics.Vector3D vector3D = new Engine.Physics.Vector3D();
             Vector3D vector33D = new Vector3D();
 
+            Laptop laptop = new Laptop("Макбук", 2999, 16, 512, 5.8);
+            Console.WriteLine(laptop.Info);
+
+
+            Car car = new Car("12HHH25", "Шевроле", 2018, "белый");
+            Console.WriteLine(car.Info);
+            Console.WriteLine(car.Compare("12HHH25"));
+            Console.WriteLine(car.Compare("29HPH25"));
         }
     }
     //[модификатор доступа] struct [название] {} структура
